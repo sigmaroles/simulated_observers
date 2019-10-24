@@ -1,4 +1,7 @@
-% save UML virtual observer data, compare with psignifit
+% objective: save data for compare UML virtual observer data, compare with psignifit
+
+
+% TODO: save the UML estimates for each to csv as well 
 
 theta = [-16, 0.7, 0.33, 0];
 % all users have same psychometric function??
