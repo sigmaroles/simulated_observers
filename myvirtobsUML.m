@@ -29,6 +29,7 @@ for i = 1:n_rep
     lgg = legend([prt1, prt2], ["estimate", "true"]);%, "Location", "SouthEast");
     lgg.FontSize = 14; 
     %}
+    
     err = abs(uml.phi(:,1) - yvals);
     plot(err)
     title("Absolute error (estimate alpha - true alpha)");
