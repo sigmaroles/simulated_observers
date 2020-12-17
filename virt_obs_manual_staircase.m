@@ -5,7 +5,7 @@ close all;
 
 % parameters
 theta = [-3, 0.7, 0.33, 0];
-ntrials = 2000;
+ntrials = 300;
 n_up = 1;
 n_down = 3;
 xnext = -2;
